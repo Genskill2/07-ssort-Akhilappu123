@@ -9,6 +9,6 @@ for(int i=pos;i<l;i++) {
  arr[n]=arr[pos];       
  arr[pos]=c; }
  void ssort(int arr[],int len) {
- for(int i=0;i<len;i++) {
-   swap_max(arr,8,i); }
+ for(int i=0;i<len-1;i++) {
+   swap_max(arr,len,i); }
    }
